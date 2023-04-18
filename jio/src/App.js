@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./LandingPage/Header";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      {/* <div>header</div>
+      <div>image carousel</div>
+      <div>img</div>
+      <div>pink</div>
+      <div>Discover</div> <div>Enrich</div> <div>view all</div>
+      <div>In the spotlight</div>
+      <div>Latest and trending devices</div>
+      <div>Making a difference</div>
+      <div>One app for everything Jio</div>
+      <div>Need guidance?</div>
+      <div>Footer</div> */}
     </div>
   );
-}
+};
 
 export default App;
