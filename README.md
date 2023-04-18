@@ -1,2 +1,1 @@
-# Qkart
-clone of Qkart
+clone of JIO
